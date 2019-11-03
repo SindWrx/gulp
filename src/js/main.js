@@ -1,7 +1,9 @@
-onload = () => {
-  document.querySelector('h1').style.textTransform = 'uppercase';
-}
+$(document).ready(function(){
+  $('.slider').slick({
+    arrow: true,
+    slidesToShow: 1
+  });
 
-$(document).ready(() => {
-  alert('aaaaakhkhkhka');
-})
+
+  $('.scroll')
+});
